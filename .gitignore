@@ -1,0 +1,35 @@
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Venv
+venv/ env/
+
+# Editors/OS
+.DS_Store
+.idea/ .vscode/
+
+# Local-only snippets/data
+data/snippets_code/**
+!data/snippets_code/.keep
+
+data/meta/**
+!data/meta/.keep
+
+data/samples/**
+!data/samples/.keep
+
+# Local stores (do not commit)
+tasks/**
+!tasks/.keep
+bookmarks/**
+!bookmarks/.keep
+
+# Local env files (never commit)
+.env
+*.env
+.env.*
+# editor swap
+*.swp
+*.swo
