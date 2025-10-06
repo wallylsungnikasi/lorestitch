@@ -33,3 +33,5 @@ bookmarks/**
 # editor swap
 *.swp
 *.swo
+.cron.lock
+auto_updater/updater.py.bak.*
